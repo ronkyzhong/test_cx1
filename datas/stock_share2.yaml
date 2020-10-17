@@ -1,0 +1,613 @@
+marginLongPositive12: # marginLong >0 PG
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    27750
+  SYMBOL:
+    PG
+  SECURITY_NAME:
+    PG
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    12
+  SETTLE_T1_QUANTITY:
+    3
+  SETTLE_T2_QUANTITY:
+    2
+  SETTLE_TN_QUANTITY:
+    0
+  price:
+
+marginShortPositive12: # marginShort >0 PG
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    27750
+  SYMBOL:
+    PG
+  SECURITY_NAME:
+    PG
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    12
+  SETTLE_T1_QUANTITY:
+    0
+  SETTLE_T2_QUANTITY:
+    2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginLongPositive13: # marginLong >0 FE
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    22929
+  SYMBOL:
+    FE
+  SECURITY_NAME:
+    FE
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    12
+  SETTLE_T1_QUANTITY:
+    3
+  SETTLE_T2_QUANTITY:
+    2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginShortPositive13: # marginShort =0 FE
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    22929
+  SYMBOL:
+    FE
+  SECURITY_NAME:
+    FE
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    0
+  SETTLE_T1_QUANTITY:
+    0
+  SETTLE_T2_QUANTITY:
+    0
+  SETTLE_TN_QUANTITY:
+    0
+marginLongPositive14: # marginLong >0 OI 25568  |margin long()| > |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    25568
+  SYMBOL:
+    OI
+  SECURITY_NAME:
+    OI
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    12
+  SETTLE_T1_QUANTITY:
+    3
+  SETTLE_T2_QUANTITY:
+    2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginShortPositive14: # marginShort <0 OI 25568 |margin long()| > |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    25568
+  SYMBOL:
+    OI
+  SECURITY_NAME:
+    OI
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    -5
+  SETTLE_T1_QUANTITY:
+    -1
+  SETTLE_T2_QUANTITY:
+    -2
+  SETTLE_TN_QUANTITY:
+    0
+marginLongPositive15: # marginLong >0 PD 49463  |margin long()| = |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    49463
+  SYMBOL:
+    PD
+  SECURITY_NAME:
+    PD
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    12
+  SETTLE_T1_QUANTITY:
+    3
+  SETTLE_T2_QUANTITY:
+    2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginShortPositive15: # marginShort <0 PD 49463 |margin long()| = |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    49463
+  SYMBOL:
+    PD
+  SECURITY_NAME:
+    PD
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    -15
+  SETTLE_T1_QUANTITY:
+    0
+  SETTLE_T2_QUANTITY:
+    -2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginLongPositive16: # marginLong >0 PW 30949  |margin long()| < |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    30949
+  SYMBOL:
+    PW
+  SECURITY_NAME:
+    PW
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    12
+  SETTLE_T1_QUANTITY:
+    3
+  SETTLE_T2_QUANTITY:
+    2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginShortPositive16: # marginShort <0 PW 30949 |margin long()| < |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    30949
+  SYMBOL:
+    PW
+  SECURITY_NAME:
+    PW
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    -20
+  SETTLE_T1_QUANTITY:
+    0
+  SETTLE_T2_QUANTITY:
+    -2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginLongPositive17: # marginLong =0 OA
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    25739
+  SYMBOL:
+    OA
+  SECURITY_NAME:
+    OA
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    0
+  SETTLE_T1_QUANTITY:
+    0
+  SETTLE_T2_QUANTITY:
+    0
+  SETTLE_TN_QUANTITY:
+    0
+
+marginShortPositive17: # marginShort >0 OA
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    25739
+  SYMBOL:
+    OA
+  SECURITY_NAME:
+    OA
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    15
+  SETTLE_T1_QUANTITY:
+    0
+  SETTLE_T2_QUANTITY:
+    0
+  SETTLE_TN_QUANTITY:
+    0
+marginLongPositive18: # marginLong <0 OB 24418  |margin long()| > |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    24418
+  SYMBOL:
+    OB
+  SECURITY_NAME:
+    OB
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    -16
+  SETTLE_T1_QUANTITY:
+    3
+  SETTLE_T2_QUANTITY:
+    -2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginShortPositive18: # marginShort >0 OB 24418 |margin long()| > |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    24418
+  SYMBOL:
+    OB
+  SECURITY_NAME:
+    OB
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    6
+  SETTLE_T1_QUANTITY:
+    -1
+  SETTLE_T2_QUANTITY:
+    -2
+  SETTLE_TN_QUANTITY:
+    0
+marginLongPositive19: # marginLong <0 OC 29523  |margin long()| = |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    29523
+  SYMBOL:
+    OC
+  SECURITY_NAME:
+    OC
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    -12
+  SETTLE_T1_QUANTITY:
+    -3
+  SETTLE_T2_QUANTITY:
+    -2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginShortPositive19: # marginShort >0 OC 29523 |margin long()| = |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    29523
+  SYMBOL:
+    OC
+  SECURITY_NAME:
+    OC
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    -8
+  SETTLE_T1_QUANTITY:
+    13
+  SETTLE_T2_QUANTITY:
+    12
+  SETTLE_TN_QUANTITY:
+    0
+
+marginLongPositive20: # marginLong <0 OMF 22304  |margin long()| < |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    22304
+  SYMBOL:
+    OMF
+  SECURITY_NAME:
+    OMF
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    -12
+  SETTLE_T1_QUANTITY:
+    -3
+  SETTLE_T2_QUANTITY:
+    -2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginShortPositive20: # marginShort >0 OMF 22304 |margin long()| < |margin short()|
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    22304
+  SYMBOL:
+    OMF
+  SECURITY_NAME:
+    OMF
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    8
+  SETTLE_T1_QUANTITY:
+    7
+  SETTLE_T2_QUANTITY:
+    11
+  SETTLE_TN_QUANTITY:
+    0
+
+marginLongPositive21: # marginLong <0
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    27833
+  SYMBOL:
+    PK
+  SECURITY_NAME:
+    PK
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    -12
+  SETTLE_T1_QUANTITY:
+    -3
+  SETTLE_T2_QUANTITY:
+    -2
+  SETTLE_TN_QUANTITY:
+    0
+
+marginShortPositive21: # marginShort =0 PK 27833
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    27833
+  SYMBOL:
+    PK
+  SECURITY_NAME:
+    PK
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    0
+  SETTLE_T1_QUANTITY:
+    0
+  SETTLE_T2_QUANTITY:
+    0
+  SETTLE_TN_QUANTITY:
+    0
+
+
+marginLongPositive22: # marginLong <0 OR 28258
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    28258
+  SYMBOL:
+    OR
+  SECURITY_NAME:
+    OR
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    33
+  BRANCH_NAME:
+    Margin Long
+  SETTLE_QUANTITY:
+    -12
+  SETTLE_T1_QUANTITY:
+    -3
+  SETTLE_T2_QUANTITY:
+    -3
+  SETTLE_TN_QUANTITY:
+    0
+
+marginShortPositive22: # marginShort <0  OR 28258
+  ACCOUNT_OWNER_ID:
+    110013140
+  ASSET_ACCOUNT_ID:
+    2800004970
+  HOLDER_ID:
+    2800004970
+  SECURITY_ID:
+    28258
+  SYMBOL:
+    OR
+  SECURITY_NAME:
+    OR
+  REGISTER_TYPE:
+    1
+  BRANCH_ID:
+    34
+  BRANCH_NAME:
+    Margin Short
+  SETTLE_QUANTITY:
+    -2
+  SETTLE_T1_QUANTITY:
+    -33
+  SETTLE_T2_QUANTITY:
+    -14
+  SETTLE_TN_QUANTITY:
+    0
